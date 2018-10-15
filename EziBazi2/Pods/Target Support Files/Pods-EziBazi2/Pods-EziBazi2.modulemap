@@ -1,0 +1,6 @@
+framework module Pods_EziBazi2 {
+  umbrella header "Pods-EziBazi2-umbrella.h"
+
+  export *
+  module * { export * }
+}

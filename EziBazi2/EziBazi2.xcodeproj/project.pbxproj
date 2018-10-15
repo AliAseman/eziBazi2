@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D1BDD05215B8D96006741CF /* RentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BDD04215B8D96006741CF /* RentViewController.swift */; };
+		5D1BDD08215B8E01006741CF /* RentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BDD07215B8E01006741CF /* RentTableViewCell.swift */; };
+		5D2A81792171F1B3006D2D24 /* GameDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A81782171F1B3006D2D24 /* GameDetailsCell.swift */; };
+		5D2A817B21721734006D2D24 /* GetDataForPostCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A817A21721733006D2D24 /* GetDataForPostCV.swift */; };
+		5D2A817D21724546006D2D24 /* GetDataForSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A817C21724546006D2D24 /* GetDataForSlider.swift */; };
+		5D302702216A351200831C8C /* loadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D302701216A351200831C8C /* loadView.swift */; };
+		5D348A65216F481A004CD001 /* GetDataForRentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D348A64216F481A004CD001 /* GetDataForRentVC.swift */; };
+		5D348A67216F4BCC004CD001 /* GetDataForSaleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D348A66216F4BCC004CD001 /* GetDataForSaleVC.swift */; };
+		5D348A69216F4C0D004CD001 /* GetDataForSaleCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D348A68216F4C0D004CD001 /* GetDataForSaleCV.swift */; };
+		5D348A6B216F4C1B004CD001 /* GetDataForRentCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D348A6A216F4C1B004CD001 /* GetDataForRentCV.swift */; };
+		5D4ECE342168BCED001A7DE6 /* SearchFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4ECE332168BCED001A7DE6 /* SearchFooter.swift */; };
+		5D4ECE372168CBFA001A7DE6 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4ECE362168CBFA001A7DE6 /* SearchCell.swift */; };
+		5D4ECE392168D1BF001A7DE6 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4ECE382168D1BF001A7DE6 /* Search.swift */; };
+		5D70CB7921513A2C001D4C12 /* RentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D70CB7821513A2C001D4C12 /* RentCollectionViewCell.swift */; };
+		5D70CB7B21513E22001D4C12 /* NewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D70CB7A21513E22001D4C12 /* NewsCollectionViewCell.swift */; };
+		5D70CB80215142B1001D4C12 /* IRAN_Sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D70CB7F215142A9001D4C12 /* IRAN_Sans.ttf */; };
+		5D8483B82166416F00F52705 /* GetDataForRelated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8483B72166416F00F52705 /* GetDataForRelated.swift */; };
+		5D90D999216F680900209A9B /* GameDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D90D998216F680900209A9B /* GameDetails.swift */; };
+		5DA087F921733B8F00AA2319 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA087F821733B8F00AA2319 /* Reachability.swift */; };
+		5DB372FB216253CC005BD903 /* ezibaziOrange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB372FA216253CC005BD903 /* ezibaziOrange.swift */; };
+		5DBBFBE3214A99580037BFF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBFBE2214A99580037BFF6 /* AppDelegate.swift */; };
+		5DBBFBE5214A99580037BFF6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBFBE4214A99580037BFF6 /* HomeViewController.swift */; };
+		5DBBFBE8214A99580037BFF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBBFBE6214A99580037BFF6 /* Main.storyboard */; };
+		5DBBFBEA214A99580037BFF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DBBFBE9214A99580037BFF6 /* Assets.xcassets */; };
+		5DBBFBED214A99580037BFF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBBFBEB214A99580037BFF6 /* LaunchScreen.storyboard */; };
+		5DC190F72151279200B08D9E /* SaleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC190F62151279200B08D9E /* SaleCollectionViewCell.swift */; };
+		5DE563C4216C9E6300636D13 /* spinnerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE563C2216C9E6300636D13 /* spinnerCell.swift */; };
+		5DE563C5216C9E6300636D13 /* spinnerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DE563C3216C9E6300636D13 /* spinnerCell.xib */; };
+		5DEA75792162652C0063274E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEA75782162652C0063274E /* SearchViewController.swift */; };
+		5DF15B45215BB41000484A77 /* SaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF15B44215BB41000484A77 /* SaleViewController.swift */; };
+		5DF15B47215BB45C00484A77 /* saleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF15B46215BB45C00484A77 /* saleTableViewCell.swift */; };
+		5DFB6EE6215CE5E400CE384E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB6EE5215CE5E400CE384E /* Game.swift */; };
+		5DFB6EE8215CE89000CE384E /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB6EE7215CE89000CE384E /* Photo.swift */; };
+		5DFD8A7A216DDCC100BF6995 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFD8A79216DDCC100BF6995 /* PostCell.swift */; };
+		94082133EC16A7BABD021D04 /* Pods_EziBazi2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457686B2C89E60BC3B22AE50 /* Pods_EziBazi2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F1ECFDA21FBC151B8B1E543 /* Pods-EziBazi2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EziBazi2.release.xcconfig"; path = "Pods/Target Support Files/Pods-EziBazi2/Pods-EziBazi2.release.xcconfig"; sourceTree = "<group>"; };
+		457686B2C89E60BC3B22AE50 /* Pods_EziBazi2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EziBazi2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1BDD04215B8D96006741CF /* RentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentViewController.swift; sourceTree = "<group>"; };
+		5D1BDD07215B8E01006741CF /* RentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentTableViewCell.swift; sourceTree = "<group>"; };
+		5D2A81782171F1B3006D2D24 /* GameDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailsCell.swift; sourceTree = "<group>"; };
+		5D2A817A21721733006D2D24 /* GetDataForPostCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataForPostCV.swift; sourceTree = "<group>"; };
+		5D2A817C21724546006D2D24 /* GetDataForSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataForSlider.swift; sourceTree = "<group>"; };
+		5D302701216A351200831C8C /* loadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadView.swift; sourceTree = "<group>"; };
+		5D348A64216F481A004CD001 /* GetDataForRentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataForRentVC.swift; sourceTree = "<group>"; };
+		5D348A66216F4BCC004CD001 /* GetDataForSaleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataForSaleVC.swift; sourceTree = "<group>"; };
+		5D348A68216F4C0D004CD001 /* GetDataForSaleCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataForSaleCV.swift; sourceTree = "<group>"; };
+		5D348A6A216F4C1B004CD001 /* GetDataForRentCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataForRentCV.swift; sourceTree = "<group>"; };
+		5D4ECE332168BCED001A7DE6 /* SearchFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFooter.swift; sourceTree = "<group>"; };
+		5D4ECE362168CBFA001A7DE6 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		5D4ECE382168D1BF001A7DE6 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		5D70CB7821513A2C001D4C12 /* RentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentCollectionViewCell.swift; sourceTree = "<group>"; };
+		5D70CB7A21513E22001D4C12 /* NewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewCell.swift; sourceTree = "<group>"; };
+		5D70CB7F215142A9001D4C12 /* IRAN_Sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRAN_Sans.ttf; sourceTree = "<group>"; };
+		5D8483B72166416F00F52705 /* GetDataForRelated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataForRelated.swift; sourceTree = "<group>"; };
+		5D90D998216F680900209A9B /* GameDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetails.swift; sourceTree = "<group>"; };
+		5DA087F821733B8F00AA2319 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		5DB372FA216253CC005BD903 /* ezibaziOrange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ezibaziOrange.swift; sourceTree = "<group>"; };
+		5DBBFBDF214A99580037BFF6 /* EziBazi2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EziBazi2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBBFBE2214A99580037BFF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DBBFBE4214A99580037BFF6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5DBBFBE7214A99580037BFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DBBFBE9214A99580037BFF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DBBFBEC214A99580037BFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DBBFBEE214A99580037BFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC190F62151279200B08D9E /* SaleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleCollectionViewCell.swift; sourceTree = "<group>"; };
+		5DE563C2216C9E6300636D13 /* spinnerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spinnerCell.swift; sourceTree = "<group>"; };
+		5DE563C3216C9E6300636D13 /* spinnerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = spinnerCell.xib; sourceTree = "<group>"; };
+		5DEA75782162652C0063274E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		5DF15B44215BB41000484A77 /* SaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleViewController.swift; sourceTree = "<group>"; };
+		5DF15B46215BB45C00484A77 /* saleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saleTableViewCell.swift; sourceTree = "<group>"; };
+		5DFB6EE5215CE5E400CE384E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		5DFB6EE7215CE89000CE384E /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		5DFD8A79216DDCC100BF6995 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		DCE551E4CA10004F0CE24879 /* Pods-EziBazi2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EziBazi2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EziBazi2/Pods-EziBazi2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DBBFBDC214A99580037BFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94082133EC16A7BABD021D04 /* Pods_EziBazi2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0926D0232AE78B283756478F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				457686B2C89E60BC3B22AE50 /* Pods_EziBazi2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D12D371214E5A4400804F12 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DFB6EE5215CE5E400CE384E /* Game.swift */,
+				5DFB6EE7215CE89000CE384E /* Photo.swift */,
+				5DB372FA216253CC005BD903 /* ezibaziOrange.swift */,
+				5D4ECE382168D1BF001A7DE6 /* Search.swift */,
+				5D348A64216F481A004CD001 /* GetDataForRentVC.swift */,
+				5D348A66216F4BCC004CD001 /* GetDataForSaleVC.swift */,
+				5D348A68216F4C0D004CD001 /* GetDataForSaleCV.swift */,
+				5D348A6A216F4C1B004CD001 /* GetDataForRentCV.swift */,
+				5D8483B72166416F00F52705 /* GetDataForRelated.swift */,
+				5D2A817A21721733006D2D24 /* GetDataForPostCV.swift */,
+				5D2A817C21724546006D2D24 /* GetDataForSlider.swift */,
+				5DA087F821733B8F00AA2319 /* Reachability.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D12D372214E5A5200804F12 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5DBBFBE6214A99580037BFF6 /* Main.storyboard */,
+				5DBBFBEB214A99580037BFF6 /* LaunchScreen.storyboard */,
+				5D4ECE352168CBBB001A7DE6 /* Cells */,
+				5D4ECE332168BCED001A7DE6 /* SearchFooter.swift */,
+				5D302701216A351200831C8C /* loadView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D12D373214E5A5A00804F12 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5DBBFBE4214A99580037BFF6 /* HomeViewController.swift */,
+				5D1BDD04215B8D96006741CF /* RentViewController.swift */,
+				5DF15B44215BB41000484A77 /* SaleViewController.swift */,
+				5DEA75782162652C0063274E /* SearchViewController.swift */,
+				5D90D998216F680900209A9B /* GameDetails.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5D4ECE352168CBBB001A7DE6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5D70CB7821513A2C001D4C12 /* RentCollectionViewCell.swift */,
+				5DC190F62151279200B08D9E /* SaleCollectionViewCell.swift */,
+				5D70CB7A21513E22001D4C12 /* NewsCollectionViewCell.swift */,
+				5D1BDD07215B8E01006741CF /* RentTableViewCell.swift */,
+				5DF15B46215BB45C00484A77 /* saleTableViewCell.swift */,
+				5D4ECE362168CBFA001A7DE6 /* SearchCell.swift */,
+				5DE563C2216C9E6300636D13 /* spinnerCell.swift */,
+				5DE563C3216C9E6300636D13 /* spinnerCell.xib */,
+				5DFD8A79216DDCC100BF6995 /* PostCell.swift */,
+				5D2A81782171F1B3006D2D24 /* GameDetailsCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5DBBFBD6214A99580037BFF6 = {
+			isa = PBXGroup;
+			children = (
+				5DBBFBE1214A99580037BFF6 /* EziBazi2 */,
+				5DBBFBE0214A99580037BFF6 /* Products */,
+				E233A56B9A8E696D8FAAABB0 /* Pods */,
+				0926D0232AE78B283756478F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5DBBFBE0214A99580037BFF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DBBFBDF214A99580037BFF6 /* EziBazi2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DBBFBE1214A99580037BFF6 /* EziBazi2 */ = {
+			isa = PBXGroup;
+			children = (
+				5DBEA83021511F450026AA05 /* Resources */,
+				5D12D371214E5A4400804F12 /* Model */,
+				5D12D372214E5A5200804F12 /* View */,
+				5D12D373214E5A5A00804F12 /* Controller */,
+				5DBBFBE2214A99580037BFF6 /* AppDelegate.swift */,
+				5DBBFBE9214A99580037BFF6 /* Assets.xcassets */,
+				5DBBFBEE214A99580037BFF6 /* Info.plist */,
+			);
+			path = EziBazi2;
+			sourceTree = "<group>";
+		};
+		5DBEA83021511F450026AA05 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D70CB7F215142A9001D4C12 /* IRAN_Sans.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E233A56B9A8E696D8FAAABB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCE551E4CA10004F0CE24879 /* Pods-EziBazi2.debug.xcconfig */,
+				0F1ECFDA21FBC151B8B1E543 /* Pods-EziBazi2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DBBFBDE214A99580037BFF6 /* EziBazi2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBBFBF1214A99580037BFF6 /* Build configuration list for PBXNativeTarget "EziBazi2" */;
+			buildPhases = (
+				4AAF8353A8E246FA55935FD5 /* [CP] Check Pods Manifest.lock */,
+				5DBBFBDB214A99580037BFF6 /* Sources */,
+				5DBBFBDC214A99580037BFF6 /* Frameworks */,
+				5DBBFBDD214A99580037BFF6 /* Resources */,
+				A17C7213D57B6640C163D68E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EziBazi2;
+			productName = EziBazi2;
+			productReference = 5DBBFBDF214A99580037BFF6 /* EziBazi2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DBBFBD7214A99580037BFF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = AliArabgary;
+				TargetAttributes = {
+					5DBBFBDE214A99580037BFF6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5DBBFBDA214A99580037BFF6 /* Build configuration list for PBXProject "EziBazi2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DBBFBD6214A99580037BFF6;
+			productRefGroup = 5DBBFBE0214A99580037BFF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DBBFBDE214A99580037BFF6 /* EziBazi2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DBBFBDD214A99580037BFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D70CB80215142B1001D4C12 /* IRAN_Sans.ttf in Resources */,
+				5DBBFBED214A99580037BFF6 /* LaunchScreen.storyboard in Resources */,
+				5DBBFBEA214A99580037BFF6 /* Assets.xcassets in Resources */,
+				5DBBFBE8214A99580037BFF6 /* Main.storyboard in Resources */,
+				5DE563C5216C9E6300636D13 /* spinnerCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AAF8353A8E246FA55935FD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EziBazi2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A17C7213D57B6640C163D68E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EziBazi2/Pods-EziBazi2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EziBazi2/Pods-EziBazi2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DBBFBDB214A99580037BFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBBFBE5214A99580037BFF6 /* HomeViewController.swift in Sources */,
+				5D4ECE372168CBFA001A7DE6 /* SearchCell.swift in Sources */,
+				5D302702216A351200831C8C /* loadView.swift in Sources */,
+				5DE563C4216C9E6300636D13 /* spinnerCell.swift in Sources */,
+				5D2A81792171F1B3006D2D24 /* GameDetailsCell.swift in Sources */,
+				5D2A817D21724546006D2D24 /* GetDataForSlider.swift in Sources */,
+				5D348A67216F4BCC004CD001 /* GetDataForSaleVC.swift in Sources */,
+				5DA087F921733B8F00AA2319 /* Reachability.swift in Sources */,
+				5D348A69216F4C0D004CD001 /* GetDataForSaleCV.swift in Sources */,
+				5DFB6EE6215CE5E400CE384E /* Game.swift in Sources */,
+				5D1BDD08215B8E01006741CF /* RentTableViewCell.swift in Sources */,
+				5D4ECE392168D1BF001A7DE6 /* Search.swift in Sources */,
+				5D2A817B21721734006D2D24 /* GetDataForPostCV.swift in Sources */,
+				5DF15B47215BB45C00484A77 /* saleTableViewCell.swift in Sources */,
+				5D1BDD05215B8D96006741CF /* RentViewController.swift in Sources */,
+				5D90D999216F680900209A9B /* GameDetails.swift in Sources */,
+				5DC190F72151279200B08D9E /* SaleCollectionViewCell.swift in Sources */,
+				5DBBFBE3214A99580037BFF6 /* AppDelegate.swift in Sources */,
+				5DFB6EE8215CE89000CE384E /* Photo.swift in Sources */,
+				5DEA75792162652C0063274E /* SearchViewController.swift in Sources */,
+				5DB372FB216253CC005BD903 /* ezibaziOrange.swift in Sources */,
+				5D4ECE342168BCED001A7DE6 /* SearchFooter.swift in Sources */,
+				5D8483B82166416F00F52705 /* GetDataForRelated.swift in Sources */,
+				5D70CB7921513A2C001D4C12 /* RentCollectionViewCell.swift in Sources */,
+				5D70CB7B21513E22001D4C12 /* NewsCollectionViewCell.swift in Sources */,
+				5D348A6B216F4C1B004CD001 /* GetDataForRentCV.swift in Sources */,
+				5DF15B45215BB41000484A77 /* SaleViewController.swift in Sources */,
+				5D348A65216F481A004CD001 /* GetDataForRentVC.swift in Sources */,
+				5DFD8A7A216DDCC100BF6995 /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DBBFBE6214A99580037BFF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DBBFBE7214A99580037BFF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DBBFBEB214A99580037BFF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DBBFBEC214A99580037BFF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DBBFBEF214A99580037BFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DBBFBF0214A99580037BFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DBBFBF2214A99580037BFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE551E4CA10004F0CE24879 /* Pods-EziBazi2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[arch=*]" = default;
+				INFOPLIST_FILE = EziBazi2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sabalan.paydar.mohtasham.EziBazi2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DBBFBF3214A99580037BFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1ECFDA21FBC151B8B1E543 /* Pods-EziBazi2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_ACTIVITY_MODE = "";
+				INFOPLIST_FILE = EziBazi2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sabalan.paydar.mohtasham.EziBazi2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DBBFBDA214A99580037BFF6 /* Build configuration list for PBXProject "EziBazi2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBBFBEF214A99580037BFF6 /* Debug */,
+				5DBBFBF0214A99580037BFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DBBFBF1214A99580037BFF6 /* Build configuration list for PBXNativeTarget "EziBazi2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBBFBF2214A99580037BFF6 /* Debug */,
+				5DBBFBF3214A99580037BFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DBBFBD7214A99580037BFF6 /* Project object */;
+}
